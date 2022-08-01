@@ -1,13 +1,44 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@font-face {
+    font-family:'skr' ;
+    src: url(./fonts/Sk-Modernist-Regular.ttf);
+}
+@font-face {
+    font-family:'skb' ;
+    src: url(./fonts/Sk-Modernist-Bold.ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+:root{
+    --red-color: #FF174E;
+    --light-black-color:#393939 ;
+    --white-color: #FFFFFF;
+    --black-color: #151515;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+*::selection {
+  background: #FF174Eff;
+  color: #F3F3F3;
+}
+
+
+
+body{
+    background-color: #F3F3F3;
+    width: 100%;
+    /* max-width: 1600px; */
+    margin: 0 auto;
+    font-family: skr;
+}
+
+
