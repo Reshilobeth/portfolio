@@ -99,6 +99,7 @@ const Phone = styled.div`
         transition: 0.5s all ease-in-out;
 
         ul{
+            
 
             P{
                 color: white;
@@ -109,6 +110,7 @@ const Phone = styled.div`
 
             li{
                 padding: .5rem 0;
+                mix-blend-mode: exclusion;
                 a{
                     color: white;
 
@@ -216,10 +218,11 @@ const Logo =  styled.div`
 
 const Menu = styled.ul`
     display: flex;
+    
         .link{
             margin: 0 1rem;
             color: #393939;
-
+            
             &::after{
                 content: '';
                 background-color: #FF174E;
