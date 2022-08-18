@@ -14,7 +14,7 @@ function Hero() {
     
     <Header ref={title}>
        <Titie>
-        <h1 className='title-1 title'>fullll-stack web </h1>
+        <h1 className='title-1 title'>full-stack web </h1>
         <h2 className='title-2 title'>developer & designer</h2>
        </Titie>
 
