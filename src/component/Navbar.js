@@ -110,7 +110,6 @@ const Phone = styled.div`
 
             li{
                 padding: .5rem 0;
-                mix-blend-mode: exclusion;
                 a{
                     color: white;
 
